@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  /* background-color: antiquewhite; */
+
+}
+
+.nav {
+  float: right;
+  height: 100%;
+}
+
+.list-unstyled {
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+.call {
+  /* max-width: 50%; */
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  /* text-align: center; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.list-unstyled .bold {
+  font-weight: 700;
+}
+
+.nav a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.nav a:last-child {
+  padding-right: 0;
+}
+
+.nav a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
+.nav-link {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.navbar-brand span {
+  font-weight: 400;
+  background-color: transparent;
+}
+
+
+.row {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.address {
+  font-family: 'Lora', serif;
+  color: #888;
+}
+
+.column-inside {
+  flex: 30%;
+  padding: 10px;
+}
+
+.column-outside {
+  text-align: center;
+  flex: 20%;
+  padding: 10px;
+}
+
+.picture {
+  width: 390px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 52px;
+  padding-left: 5px;
+}
+
+
+.about-us {
+  font-family: 'Lora', serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.about-us-text {
+  font-family: 'Lora', serif;
+  font-size: 16.5px;
+  font-weight: 400px;
+}
+
+.images {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-5 {
+  background-image: url('Images/gmondiPhoto.jpg');
+  height: 400px;
+  opacity: 100%;
+  background-repeat: repeat-x;
+}
+
+.mb-3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 52px;
+}
+
+.see_menu {
+  font-family: 'Lora', serif;
+}
+
+.text-white {
+  opacity: 100%;
+  font-family: 'Lora', serif;
+}
+
+.mask {
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
